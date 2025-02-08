@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unet"
+version = "0.0.1"
+description = "package that implements unet"
+dependencies = [
+    "torch==2.5.1",
+    "numpy==2.2.2",
+    "torchvision",
+    "tensorboard"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["*.ipynb"]
