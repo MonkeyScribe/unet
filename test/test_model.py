@@ -1,9 +1,9 @@
 import unittest
-from unet_model import Unet
-from unet_model import Unet
-from dataset import UnetData
+from unet.unet_model import Unet
+from unet.unet_model import Unet
+from unet.dataset import UnetData
 from torch.optim import SGD
-from trainer import Trainer
+from unet.trainer import Trainer
 from torch.utils.data import DataLoader, TensorDataset
 
 class TestUnetModel(unittest.TestCase):

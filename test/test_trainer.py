@@ -1,5 +1,5 @@
 import unittest
-from trainer import Trainer
+from unet.trainer import Trainer
 import torch
 
 
